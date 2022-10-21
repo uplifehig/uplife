@@ -1,0 +1,16 @@
+.introducao-bg {
+  background-image: url("../../imagens/introducao/introducao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+}
+.introducao h1 {
+  max-width: 45ch;
+  margin-bottom: 16px;
+}
+@media (max-width: 600px) {
+  .introducao-bg {
+    background-position: right bottom;
+  }
+}
