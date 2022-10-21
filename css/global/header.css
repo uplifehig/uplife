@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   gap: 10px;
   color: var(--cor-p8);
+  align-items: center;
 }
 .js [data-menu="button"] {
   display: none;

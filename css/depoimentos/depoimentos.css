@@ -1,13 +1,29 @@
-.depoimentos ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 100px;
-  align-items: center;
-  margin-bottom: 20px;
+.depoimentos h2 {
+  text-align: center;
 }
-@media (max-width: 600px) {
-  .depoimentos ul {
-    grid-template-columns: 1fr;
-    gap: 10px;
+.depoimentos ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  justify-content: center;
+  gap: 10px;
+}
+.depoimentos iframe,
+.depoimentos img {
+  border-radius: 4px;
+}
+.depoimentos iframe:nth-child(1) {
+  margin-bottom: 10px;
+}
+.depoimentos img {
+  margin-bottom: 10px;
+}
+.depoimentos a {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1000px) {
+  .depoimentos ul li:nth-child(2) {
+    grid-row: 2;
   }
 }

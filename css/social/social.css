@@ -1,3 +1,6 @@
+.social h2 {
+  text-align: center;
+}
 .js .social .slide-wrapper {
   overflow: hidden;
 }
@@ -54,7 +57,6 @@
   display: none;
 }
 .js .social .arrow-nav button {
-  display: inline-block;
   cursor: pointer;
   border: none;
   border-radius: 4px;

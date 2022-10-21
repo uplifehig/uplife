@@ -6,11 +6,22 @@
   padding: 100px 0px;
 }
 .introducao h1 {
-  max-width: 45ch;
+  max-width: 20ch;
   margin-bottom: 16px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.introducao a {
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (max-width: 600px) {
   .introducao-bg {
     background-position: right bottom;
+  }
+  .introducao a {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
