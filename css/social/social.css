@@ -1,5 +1,5 @@
 .social-bg {
-  background-color: #f1fff9;
+  background-color: var(--cor-fundo);
   padding: 50px 0px;
 }
 .js .social h2 {

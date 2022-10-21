@@ -1,0 +1,22 @@
+.bonus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 0;
+}
+.bonus .bonus-conteudo {
+  max-width: 45ch;
+}
+@media (max-width: 600px) {
+  .bonus .bonus-imagem {
+    margin-bottom: 20px;
+  }
+  .bonus .bonus-imagem img {
+    width: 150px;
+  }
+  .bonus .bonus-conteudo {
+    text-align: center;
+  }
+}

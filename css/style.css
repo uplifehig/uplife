@@ -10,3 +10,9 @@
 @import "./social/social.css";
 /** Depoimentos */
 @import "./depoimentos/depoimentos.css";
+/** Bonus */
+@import "./bonus/bonus.css";
+/** Especialidade */
+@import "./especialidade/especialidade.css";
+/** Escolha */
+@import "./escolha/escolha.css";

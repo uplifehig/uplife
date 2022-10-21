@@ -21,6 +21,30 @@
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+.fonte-1-pequena {
+  font-size: 1.125rem;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.fonte-1-bonus {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.fonte-1-escolha-titulo {
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.fonte-1-escolha-paragrafo {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
 @media (max-width: 600px) {
   .fonte-1-media {
     font-size: 1.8rem;
