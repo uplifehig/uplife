@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   padding: 100px 0px;
+  transition: 2s;
 }
 .js .introducao h1 {
   max-width: 20ch;
