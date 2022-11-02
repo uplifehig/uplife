@@ -1,5 +1,5 @@
 export default function initImagemTrocando() {
-  const main = document.querySelector(".introducao-bg");
+  const main = document.querySelector("main");
   setInterval(trocarImagem, 3000);
   setInterval(trocarImagemDois, 5000);
   function trocarImagem() {
