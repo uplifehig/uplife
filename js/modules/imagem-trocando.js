@@ -3,7 +3,8 @@ export default function initImagemTrocando() {
   setInterval(trocarImagem, 3000);
   setInterval(trocarImagemDois, 5000);
   function trocarImagem() {
-    main.style.backgroundImage = 'url("../../imagens/escolha/IMG_7215.png")';
+    main.style.backgroundImage =
+      'url("../../imagens/introducao/introducao2.png")';
   }
   function trocarImagemDois() {
     main.style.backgroundImage =
