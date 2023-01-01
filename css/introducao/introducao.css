@@ -5,7 +5,7 @@ main {
   background-position: center;
   padding: 100px 0px;
   transition: 3s;
-  animation: animarImage 9s infinite alternate;
+  animation: animarImage 10s infinite alternate;
 }
 @keyframes animarImage {
   0% {
