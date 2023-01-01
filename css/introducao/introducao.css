@@ -5,6 +5,21 @@ main {
   background-position: center;
   padding: 100px 0px;
   transition: 3s;
+  animation: animarImage 9s infinite alternate;
+}
+@keyframes animarImage {
+  0% {
+    background-image: url("../../imagens/introducao/introducao2.png");
+  }
+  25% {
+    background-image: url("../../imagens/introducao/introducao.png");
+  }
+  50% {
+    background-image: url("../../imagens/introducao/introducao2.png");
+  }
+  75% {
+    background-image: url("../../imagens/introducao/introducao2.png");
+  }
 }
 .js .introducao h1 {
   max-width: 20ch;
