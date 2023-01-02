@@ -1,5 +1,5 @@
 main {
-  background-image: url("../../imagens/introducao/introducao.png");
+  background-image: url("../../imagens/introducao/introducao.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9,16 +9,16 @@ main {
 }
 @keyframes animarImage {
   0% {
-    background-image: url("../../imagens/introducao/introducao2.png");
+    background-image: url("../../imagens/introducao/introducao2.jpg");
   }
   25% {
-    background-image: url("../../imagens/introducao/introducao.png");
+    background-image: url("../../imagens/introducao/introducao.jpg");
   }
   50% {
-    background-image: url("../../imagens/introducao/introducao2.png");
+    background-image: url("../../imagens/introducao/introducao2.jpg");
   }
   75% {
-    background-image: url("../../imagens/introducao/introducao2.png");
+    background-image: url("../../imagens/introducao/introducao2.jpg");
   }
 }
 .js .introducao h1 {
